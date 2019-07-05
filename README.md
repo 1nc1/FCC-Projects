@@ -1,2 +1,2 @@
-# freeCodeCamp HTML/CSS Project
-## Will update on progress.
+## freeCodeCamp HTML/CSS Project
+Will update on progress.
