@@ -1,2 +1,2 @@
-## freeCodeCamp HTML/CSS Project
-Will update on progress.
+## freeCodeCamp HTML/CSS Projects
+First project : Build a Tribute Page | :heavy_check_mark:
