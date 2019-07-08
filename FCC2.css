@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(165, 224, 216);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#survey-form {
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+}
+
+.outer-form {
+    width: 50%;
+    margin: auto;
+    height: auto;
+}
+
+#title {
+    font-size: 25pt;
+}
+
+#description {
+}
