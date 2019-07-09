@@ -11,7 +11,7 @@ body {
 }
 
 .outer-form {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     height: auto;
 }
@@ -21,6 +21,7 @@ body {
     height: 20px;
     border: 1px solid darkgray;
     padding: 5px;
+    border-radius: 2px;
 }
 
 .left {
@@ -50,5 +51,32 @@ body {
 @media (max-width: 600px) {
     .right {
         display: block;
+    }
+
+    .left {
+        text-align: center;
+        margin: 10px 300px 10px -50px;
+    }
+
+    .outer-form {
+        width: 100%;
+        text-align: center;
+        margin-left: 45px;
+    }
+
+    #survey-form {
+        width: 400px;
+        clear: both;
+    }
+
+    .full-div {
+        margin: 0 0 0 35px;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    #name, #email, #number {
+        width: 300px;
     }
 }
