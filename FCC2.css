@@ -5,6 +5,7 @@ body {
 }
 
 #survey-form {
+    width: 100%;
     background-color: rgb(250, 250, 250);
     border-radius: 4px;
     font-size: 13pt;
@@ -12,6 +13,7 @@ body {
 
 .outer-form {
     width: 80%;
+    max-width: 950px;
     margin: 0 auto;
     height: auto;
 }
@@ -26,7 +28,6 @@ body {
 
 .left {
     width: 35%;
-    height: auto;
     display: inline-block;
     text-align: right;
     margin: 10px;
@@ -48,24 +49,26 @@ body {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
+/* -----------------MEDIA QUERY----------------- */
+
+@media screen and (max-width: 600px) {
     .right {
         display: block;
     }
 
     .left {
-        text-align: center;
-        margin: 10px 300px 10px -50px;
+        width: 80%;
+        text-align: left;
+        margin-left: -50px;
     }
 
     .outer-form {
-        width: 100%;
-        text-align: center;
-        margin-left: 45px;
+        width: 80%;
     }
 
     #survey-form {
-        width: 400px;
+        width: 700px;
+        max-width: 102%;
         clear: both;
     }
 
@@ -80,3 +83,10 @@ body {
         width: 300px;
     }
 }
+
+/* @media (max-width: 1000px) {
+    .outer-form {
+        max-width: 600px;
+        width: 100%;
+    }
+} */
