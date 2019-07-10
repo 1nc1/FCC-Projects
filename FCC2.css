@@ -27,7 +27,7 @@ body {
 }
 
 .left {
-    width: 35%;
+    width: 40%;
     display: inline-block;
     text-align: right;
     margin: 10px;
@@ -46,7 +46,21 @@ body {
 }
 
 #description {
-    padding: 20px;
+    padding: 40px 0 10px 0;
+}
+
+#dropdown {
+    height: 35px;
+    padding: 5px 0 5px 5px;
+}
+
+#radio-alignment {
+    vertical-align: super;
+    padding: 0;
+}
+
+.right ul li{
+    list-style: none;
 }
 
 /* -----------------MEDIA QUERY----------------- */
