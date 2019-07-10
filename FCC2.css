@@ -61,6 +61,7 @@ body {
 
 .right ul li{
     list-style: none;
+    margin-bottom: 10px;
 }
 
 /* -----------------MEDIA QUERY----------------- */
