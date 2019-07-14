@@ -1,4 +1,4 @@
-## freeCodeCamp Responsive Web Design Projects
+## [ freeCodeCamp ] Responsive Web Design Projects
 **FCC1** : Build a Tribute Page | :heavy_check_mark:
 
 **FCC2** : Build a Survey Form | :heavy_check_mark:
