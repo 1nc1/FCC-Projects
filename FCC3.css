@@ -90,6 +90,53 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     width: 165px;
 }
 
+.section-2-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#section-2 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#section-2-img-2 { /* SECTION 2 IMG 2 ABSOLUTE ELEMENT */
+    width: 25%;
+    height: auto;
+    vertical-align: -50px;
+    margin-right: 300px;
+}
+
+.section-2-div {
+    display: flex;
+}
+
+#section-2 .section-2-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+#section-2 .section-2-desc-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: -250px;
+}
+
+#section-2 .section-2-desc-div span {
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+#section-2 .section-2-desc-div h6 {
+    font-size: 12.5pt;
+    font-weight: 400;
+}
+
 /* I need to utilize CSS flexbox at least once, so learn it before continuing. */
 
 /* I need at least one media query. */
