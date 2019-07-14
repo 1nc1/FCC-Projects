@@ -3,10 +3,14 @@
     margin: 0;
     padding: 0;
     background-color: rgb(240, 240, 240);
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 #main {
-    font-family: 'Lato', sans-serif;
 }
 
 .nav-link a {
@@ -19,16 +23,71 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1.5em;
 }
 
  #nav-bar li {
     display: inline-block;
-    margin-right: 10rem;
+    font-family: 'Literata', serif;
+    margin-right: 8rem;
+    font-weight: 400;
 }
 
 ul {
     list-style: none;
+    margin-right: -2rem;
+}
+
+#header-img {
+    width: 10%;
+    vertical-align: -5px;
+    height: auto;
+}
+
+#logo {
+    margin-left: 40px;
+}
+
+header span { /* LOGO TEXT ( Original Trombones ) */
+    margin-left: 13px;
+    font-weight: 500;
+    font-family: 'Literata', serif;
+    font-size: 22pt;
+}
+
+#section-1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#form {
+    margin-top: 2rem;
+}
+
+#description {
+    font-size: 20pt;
+    font-weight: 400;
+    font-family: 'Literata', serif;
+}
+
+#email {
+    border: 1px solid rgb(145, 145, 145);
+    background-color: white;
+    width: 300px;
+    padding: 5px 3px 3px 9px;
+    height: 32px;
+    font-size: 10pt;
+}
+
+#submit {
+    border: 0;
+    background-color: rgb(247, 191, 89);
+    font-family: 'Literata', serif;
+    padding: 4px 9px 6px 9px;
+    margin-top: 20px;
+    font-size: 15pt;
+    font-weight: bold;
+    width: 165px;
 }
 
 /* I need to utilize CSS flexbox at least once, so learn it before continuing. */
