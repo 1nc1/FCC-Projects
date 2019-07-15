@@ -24,6 +24,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
  #nav-bar li {
@@ -57,7 +60,7 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 
 #section-1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 #form {
@@ -91,8 +94,8 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 }
 
 .section-2-container {
-    max-width: 1100px;
-    width: 100%;
+    max-width: 936px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -104,31 +107,32 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 #section-2-img-1 { /* SECTION 2 IMG 1 ABSOLUTE ELEMENT */
     width: 30%;
     height: auto;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 #section-2-img-2 { /* SECTION 2 IMG 2 ABSOLUTE ELEMENT */
     width: 50%;
     height: auto;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: -20px;
 }
 
 #battery-icon {
     font-size: 50px; /* STYLE FA ICONS WITH FONT PROPERTIES */
-    margin-left: 40px;
+    margin-left: -10px;
+    color: orange;
 }
 
 .section-2-div {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #section-2 .section-2-img-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12vw;
+    width: 20%;
 }
 
 #section-2 .section-2-desc-div {
@@ -136,7 +140,7 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 39vw;
+    width: 100%;    /* I think you should change width, when shrinking page, its on left side. */
 }
 
 #section-2 .section-2-desc-div span {
@@ -148,6 +152,15 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     font-size: 11pt;
     font-weight: 400;
     margin-top: 5px;
+}
+
+#video-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#video {
+
 }
 
 /* I need to utilize CSS flexbox at least once, so learn it before continuing. */
