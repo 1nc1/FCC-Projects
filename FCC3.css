@@ -101,21 +101,34 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     margin-top: 75px;
 }
 
-#section-2-img-2 { /* SECTION 2 IMG 2 ABSOLUTE ELEMENT */
-    width: 75%;
+#section-2-img-1 { /* SECTION 2 IMG 1 ABSOLUTE ELEMENT */
+    width: 30%;
     height: auto;
-    vertical-align: -50px;
+    margin-left: 50px;
+}
+
+#section-2-img-2 { /* SECTION 2 IMG 2 ABSOLUTE ELEMENT */
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#battery-icon {
+    font-size: 50px; /* STYLE FA ICONS WITH FONT PROPERTIES */
+    margin-left: 40px;
 }
 
 .section-2-div {
     display: flex;
+    margin-bottom: 30px;
 }
 
 #section-2 .section-2-img-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20vw;
+    width: 12vw;
 }
 
 #section-2 .section-2-desc-div {
@@ -123,17 +136,18 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 80vw;
+    width: 39vw;
 }
 
 #section-2 .section-2-desc-div span {
-    font-size: 23pt;
+    font-size: 19pt;
     font-weight: bold;
 }
 
 #section-2 .section-2-desc-div h6 {
-    font-size: 12.5pt;
+    font-size: 11pt;
     font-weight: 400;
+    margin-top: 5px;
 }
 
 /* I need to utilize CSS flexbox at least once, so learn it before continuing. */
