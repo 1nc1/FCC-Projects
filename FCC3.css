@@ -36,7 +36,7 @@ body {
     font-weight: 400;
 }
 
-ul {
+#nav-bar ul {
     list-style: none;
     margin-right: -2rem;
 }
@@ -105,13 +105,14 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 }
 
 #section-2-img-1 { /* SECTION 2 IMG 1 ABSOLUTE ELEMENT */
-    width: 30%;
+    max-width: 100%;
+    width: 65px;
     height: auto;
-    margin-left: 0px;
 }
 
 #section-2-img-2 { /* SECTION 2 IMG 2 ABSOLUTE ELEMENT */
-    width: 50%;
+    max-width: 100%;
+    width: 95px;
     height: auto;
     margin-top: 10px;
     margin-left: -20px;
@@ -125,14 +126,14 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 
 .section-2-div {
     display: flex;
-    margin-bottom: 60px;
 }
 
 #section-2 .section-2-img-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    height: 125px;
+    width: 20vw;
 }
 
 #section-2 .section-2-desc-div {
@@ -140,7 +141,8 @@ header span { /* LOGO TEXT ( Original Trombones ) */
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 100%;    /* I think you should change width, when shrinking page, its on left side. */
+    height: 125px;
+    width: 80vw;    /* I think you should change width, when shrinking page, its on left side. */
 }
 
 #section-2 .section-2-desc-div span {
@@ -163,6 +165,17 @@ header span { /* LOGO TEXT ( Original Trombones ) */
 
 }
 
-/* I need to utilize CSS flexbox at least once, so learn it before continuing. */
+/* ADD SECTION 3 STYLES HERE */
 
-/* I need at least one media query. */
+/* ADD FOOTER STYLES HERE */
+
+@media screen and (max-width: 600px) {
+    
+    #section-2 .section-2-img-div {
+        display: none;
+    }
+
+    #section-2 .section-2-desc-div {
+        text-align: center;
+    }
+}
