@@ -3,7 +3,7 @@
 
 **FCC2** : Build a Survey Form | :heavy_check_mark:
 
-**FCC3** : Build a Product Landing Page | :x:
+**FCC3** : Build a Product Landing Page | :heavy_check_mark:
 
 **FCC4** : Build a Technical Documentation Page | :x:
 
