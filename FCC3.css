@@ -13,7 +13,7 @@ body {
 #main {
 }
 
-header {
+#header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -223,6 +223,7 @@ header span { /* LOGO TITLE ( Original Trombones ) */
 }
 
 footer {
+    margin-top: 20px;
     text-align: center;
     padding: 20px;
     background-color: rgb(214, 214, 214);
@@ -294,8 +295,31 @@ footer span {
         width: 100%;
     }
 
-    .nav-links {
+    .nav-links { /* ABSOLUTE UL ELEMENT */
         text-align: center;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #section-1 {
+        margin-top: 175px;
+    }
+
+    #nav-bar {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin: 3px 0 0 0;
+    }
+
+    .nav-links li{
+        padding: 0 0 2px 0;
     }
 }
