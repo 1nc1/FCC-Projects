@@ -9,6 +9,6 @@
 
 **FCC5** : Build a Personal Portfolio Webpage | :x:
 
-Decided to not use any CSS frameworks for these projects.
+*Decided to not use any CSS frameworks for these projects.
 
 **If you would like to participate** : https://learn.freecodecamp.org/
