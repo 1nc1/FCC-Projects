@@ -13,45 +13,49 @@ body {
 #main {
 }
 
-.nav-link a {
-    font-size: 16pt;
-    color: black;
-    text-decoration: none;
-}
-
-#nav-bar { /* If having trouble positioning img, change nav-bar to header. */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5em;
+header {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
- #nav-bar li {
-    display: inline-block;
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+} 
+
+.nav-link {
     font-family: 'Literata', serif;
-    margin-right: 8rem;
     font-weight: 400;
-}
-
-#nav-bar ul {
     list-style: none;
-    margin-right: -2rem;
 }
 
-#header-img {
-    width: 10%;
+.nav-link a {
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+}
+
+#header-img { /* NAV-BAR IMG ABSOLUTE ELEMENT */
+    max-width: 100%;
+    width: 75px;
     vertical-align: -5px;
     height: auto;
 }
 
 #logo {
-    margin-left: 40px;
+    width: 60vw;
 }
 
-header span { /* LOGO TEXT ( Original Trombones ) */
+header span { /* LOGO TITLE ( Original Trombones ) */
     margin-left: 13px;
     font-weight: 500;
     font-family: 'Literata', serif;
@@ -265,6 +269,13 @@ footer span {
     }
 }
 
+@media screen and (max-width: 840px) {
+    
+    .nav-links {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #section-3 {
         flex-direction: column;
@@ -274,5 +285,17 @@ footer span {
     .section-3-div {
         max-width: 100%;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    
+    #logo {
+        width: 100%;
+    }
+
+    .nav-links {
+        text-align: center;
+        flex-direction: column;
     }
 }
