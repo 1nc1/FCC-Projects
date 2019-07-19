@@ -5,7 +5,7 @@
 
 **FCC3** : Build a Product Landing Page | :heavy_check_mark:
 
-**FCC4** : Build a Technical Documentation Page | :x:
+**FCC4** : Build a Technical Documentation Page | :heavy_check_mark:
 
 **FCC5** : Build a Personal Portfolio Webpage | :x:
 
