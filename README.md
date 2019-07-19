@@ -3,12 +3,14 @@
 
 **FCC2** : Build a Survey Form | :heavy_check_mark:
 
-**FCC3** : Build a Product Landing Page | :x:
+**FCC3** : Build a Product Landing Page | :heavy_check_mark:
 
 **FCC4** : Build a Technical Documentation Page | :x:
 
 **FCC5** : Build a Personal Portfolio Webpage | :x:
 
-Decided to not use any CSS frameworks for these projects.
+-----------------------------------------------------------------
+
+**Decided to not use any CSS frameworks for these projects.**
 
 **If you would like to participate** : https://learn.freecodecamp.org/
