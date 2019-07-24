@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 #main {
@@ -16,13 +17,14 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     background-color: #be3144;
     height: 8vh;
     box-shadow: inset 0px 5px 10px 0px rgba(70, 70, 70, 0.5);
+    border-bottom: 2px solid #333436;
 }
 
 #navbar ul {
@@ -82,20 +84,94 @@ body {
 
 #project-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 450px);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 30px;
-    width: 1280px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1280px;
     text-align: center;
     margin: 0 auto;
-}
-
-.project-tile:nth-child(odd) {
-    background-color: red;
+    padding: 100px 0 0 0;
 }
 
 .project-tile {
-    background-color: aqua;
-    font-size: 100px;
+    background-color: #333436;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.project-tile p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.project-img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
+
+#btn-div {
+    display: flex;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+#showall-btn {
+    display: inline-block;
+    background-color: #333436;
+    width: 150px;
+    height: 50px;
+    padding: 9px 2px 0 10px;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    font-size: 21px;
+}
+
+#rightarrow-icon {
+    margin-left: 5px;
+}
+
+#third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333436;
+    height: 70vh;
+    color: rgb(243, 243, 243);
+    font-family: 'Raleway', sans-serif;
+}
+
+#third-section h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#third-section p {
+    margin-top: 15px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+#contact-links a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+#contact-links a:hover {
+    transition: transform 0.3s ease-out;
+    padding: 20px 10px 10px 10px;
+}
+
+.contact-icon {
+    font-size: 25px;
+    margin-right: 10px;
 }
