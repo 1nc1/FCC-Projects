@@ -84,6 +84,7 @@ html {
     font-size: 40px;
     border-bottom: 2px solid rgb(243, 243, 243);
     color: rgb(243, 243, 243);
+    text-align: center;
 }
 
 #project-box {
@@ -238,8 +239,12 @@ html {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 660px) {
-    #projects h1 {
-        text-align: center;
+@media screen and (max-width: 768px) {
+    #navbar {
+        justify-content: center;
+    }
+
+    #navbar ul {
+        margin: 0;
     }
 }
